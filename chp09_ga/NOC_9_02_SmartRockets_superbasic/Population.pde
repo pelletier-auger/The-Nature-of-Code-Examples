@@ -89,7 +89,7 @@ class Population {
     return generations;
   }
 
-  // Find highest fintess for the population
+  // Find highest fitness for the population
   float getMaxFitness() {
     float record = 0;
     for (int i = 0; i < population.length; i++) {
