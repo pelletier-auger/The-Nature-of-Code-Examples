@@ -42,7 +42,7 @@ void setup() {
   popmax = 150;
   mutationRate = 0.01;
 
-  // Create a populationation with a target phrase, mutation rate, and populationation max
+  // Create a population with a target phrase, mutation rate, and population max
   population = new Population(target, mutationRate, popmax);
 }
 
@@ -64,7 +64,7 @@ void draw() {
 
 void displayInfo() {
   background(255);
-  // Display current status of populationation
+  // Display current status of population
   String answer = population.getBest();
   textFont(f);
   textAlign(LEFT);
