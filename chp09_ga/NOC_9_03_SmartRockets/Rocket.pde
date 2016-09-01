@@ -43,7 +43,7 @@ class Rocket {
   // distance = distance from target
   // finish = what order did i finish (first, second, etc. . .)
   // f(distance,finish) =   (1.0f / finish^1.5) * (1.0f / distance^6);
-  // a lower finish is rewarded (exponentially) and/or shorter distance to target (exponetially)
+  // a lower finish is rewarded (exponentially) and/or shorter distance to target (exponentially)
   void fitness() {
     if (recordDist < 1) recordDist = 1;
 
